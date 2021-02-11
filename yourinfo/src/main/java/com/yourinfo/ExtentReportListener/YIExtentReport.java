@@ -23,6 +23,7 @@ public class YIExtentReport extends TestBase {
 
 	ExtentReports extent;
 
+	@SuppressWarnings({ "deprecation", "deprecation" })
 	@BeforeTest
 	public void config()
 	{

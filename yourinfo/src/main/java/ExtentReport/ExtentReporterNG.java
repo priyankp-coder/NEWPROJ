@@ -14,8 +14,8 @@ public class ExtentReporterNG extends TestBase{
 	static ExtentReports extent;
 	public static ExtentReports ExtentReportGenerator()
 	{
-		String path = System.getProperty("user.dir")+"\\reports\\index.html";
-		ExtentSparkReporter reporter = new ExtentSparkReporter(path);
+		//String path = System.getProperty("user.dir")+"\\reports\\index.html";
+		ExtentSparkReporter reporter = new ExtentSparkReporter(System.getProperty("user.dir")+"\\reports\\index.html");
 		reporter.config().setReportName("Web Automation Result");
 		reporter.config().setDocumentTitle("Test Results");
 		
