@@ -79,7 +79,7 @@ public class SearchPageTest extends TestBase
 	{
 		serPage.clickonMajorProjectSearch();
 	}
-	@Test(priority =1, enabled = false)
+	@Test(priority =1)
 	public void cickonLandMark() throws InterruptedException
 	{
 		serPage.clickonMajorProjectSearch();
