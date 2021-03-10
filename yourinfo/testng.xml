@@ -9,6 +9,9 @@
 	<test thread-count="5" name="Test">
 		<classes>
 			<class name="com.yourinfo.testcases.LoginPageTest" />
+			<class name="com.yourinfo.testcases.HomePageTest" >	
+		</class>
+			<class name="com.yourinfo.testcases.SearchPageTest" />
 			
 
 		</classes>

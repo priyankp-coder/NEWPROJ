@@ -6,11 +6,15 @@
 
 package com.youinfo.base;
 
+import java.io.File;
 import java.io.FileInputStream;
 import java.io.IOException;
 import java.util.Properties;
 import java.util.concurrent.TimeUnit;
 
+import org.apache.commons.io.FileUtils;
+import org.openqa.selenium.OutputType;
+import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
@@ -49,6 +53,16 @@ public class TestBase {
 		driver.manage().timeouts().implicitlyWait(TestUtil.Implicit_Wait, TimeUnit.SECONDS);
 		driver.get(prop.getProperty("url"));
 		return driver;
+	}
+	public String getScreenShotPath(String TestCaseName,WebDriver driver) throws IOException 
+	{
+		TakesScreenshot ts = (TakesScreenshot)driver;
+		File sourece = ts.getScreenshotAs(OutputType.FILE);
+		String DestPath = System.getProperty("user.dir")+"\\reports\\"+TestCaseName+".png";
+		File file = new File(DestPath);
+		FileUtils.copyFile(sourece, file);
+		return DestPath;
+		
 	}
 	
 }

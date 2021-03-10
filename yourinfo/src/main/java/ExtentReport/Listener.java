@@ -11,23 +11,26 @@ import com.aventstack.extentreports.Status;
 public class Listener implements ITestListener {
 	ExtentReports extent = ExtentReporterNG.ExtentReportGenerator();
 	ExtentTest test;
+	private static ThreadLocal<ExtentTest> TL = new ThreadLocal<ExtentTest>();
 	//private static ThreadLocal<ExtentTest> extentTest = new ThreadLocal<ExtentTest>();
 	
 	public void onTestStart(ITestResult result) {
 		test = extent.createTest(result.getMethod().getMethodName());
-		
+		TL.set(test);
 		
 	}
 
 	public void onTestSuccess(ITestResult result) {
-		test.log(Status.PASS, "Successful");
+		TL.get().log(Status.PASS, "Successful");
 	}
 
 	public void onTestFailure(ITestResult result) {
 		
-		test.fail(result.getThrowable());
+		TL.get().fail(result.getThrowable());
+		//TL.get().addScreenCaptureFromPath(getScreenShotPath(), result.getMethod().getMethodName());
 		
 	}
+
 
 	public void onFinish(ITestContext context) {
 		// TODO Auto-generated method stub
@@ -35,13 +38,12 @@ public class Listener implements ITestListener {
 	}
 
 	public void onTestSkipped(ITestResult result) {
-		  
+		
+		test.log(Status.SKIP, "Test Skipped");
 		
 	}
-
 	public void onTestFailedButWithinSuccessPercentage(ITestResult result) {
 		// TODO Auto-generated method stub
-		
 	}
 
 	public void onStart(ITestContext context) {

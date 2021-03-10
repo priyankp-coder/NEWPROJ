@@ -8,7 +8,7 @@ import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
 import com.youinfo.base.TestBase;
-import com.yourinfo.ExtentReportListener.YIExtentReport;
+
 import com.yourinfo.pages.HomePage;
 import com.yourinfo.pages.LoginPage;
 
@@ -16,7 +16,7 @@ public class LoginPageTest extends TestBase{
 
 	LoginPage loginPage;
 	HomePage homePage;
-	YIExtentReport Report;
+	
 	Logger log = Logger.getLogger(LoginPageTest.class);
 
 	public LoginPageTest() throws IOException {

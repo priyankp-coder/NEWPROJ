@@ -1,25 +1,278 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" ignored="1" total="21" passed="20">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="18532" started-at="2021-02-11T16:05:34 IST" finished-at="2021-02-11T16:05:53 IST">
+  <suite name="Suite" duration-ms="361726" started-at="2021-03-08T16:22:15 IST" finished-at="2021-03-08T16:28:17 IST">
     <groups>
     </groups>
-    <test name="Test" duration-ms="18532" started-at="2021-02-11T16:05:34 IST" finished-at="2021-02-11T16:05:53 IST">
+    <test name="Test" duration-ms="361726" started-at="2021-03-08T16:22:15 IST" finished-at="2021-03-08T16:28:17 IST">
       <class name="com.yourinfo.testcases.LoginPageTest">
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.yourinfo.testcases.LoginPageTest@55a1c291]" name="setup" is-config="true" duration-ms="16233" started-at="2021-02-11T16:05:34 IST" finished-at="2021-02-11T16:05:50 IST">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.yourinfo.testcases.LoginPageTest@55ca8de8]" name="setup" is-config="true" duration-ms="12215" started-at="2021-03-08T16:22:15 IST" finished-at="2021-03-08T16:22:27 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="loginTest()[pri:0, instance:com.yourinfo.testcases.LoginPageTest@55a1c291]" name="loginTest" duration-ms="938" started-at="2021-02-11T16:05:50 IST" finished-at="2021-02-11T16:05:51 IST">
+        <test-method status="PASS" signature="loginTest()[pri:0, instance:com.yourinfo.testcases.LoginPageTest@55ca8de8]" name="loginTest" duration-ms="1692" started-at="2021-03-08T16:22:27 IST" finished-at="2021-03-08T16:22:29 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginTest -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:com.yourinfo.testcases.LoginPageTest@55a1c291]" name="teardown" is-config="true" duration-ms="1266" started-at="2021-02-11T16:05:51 IST" finished-at="2021-02-11T16:05:53 IST">
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.yourinfo.testcases.LoginPageTest@55ca8de8]" name="teardown" is-config="true" duration-ms="1219" started-at="2021-03-08T16:22:29 IST" finished-at="2021-03-08T16:22:30 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
       </class> <!-- com.yourinfo.testcases.LoginPageTest -->
+      <class name="com.yourinfo.testcases.SearchPageTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.yourinfo.testcases.SearchPageTest@12d3a4e9]" name="setup" is-config="true" duration-ms="10497" started-at="2021-03-08T16:24:39 IST" finished-at="2021-03-08T16:24:49 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="BuildingDorpdown()[pri:2, instance:com.yourinfo.testcases.SearchPageTest@12d3a4e9]" name="BuildingDorpdown" duration-ms="18583" started-at="2021-03-08T16:24:49 IST" finished-at="2021-03-08T16:25:08 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BuildingDorpdown -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.yourinfo.testcases.SearchPageTest@12d3a4e9]" name="teardown" is-config="true" duration-ms="1057" started-at="2021-03-08T16:25:08 IST" finished-at="2021-03-08T16:25:09 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.yourinfo.testcases.SearchPageTest@12d3a4e9]" name="setup" is-config="true" duration-ms="11510" started-at="2021-03-08T16:25:09 IST" finished-at="2021-03-08T16:25:21 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="GensearchByBuilding()[pri:3, instance:com.yourinfo.testcases.SearchPageTest@12d3a4e9]" name="GensearchByBuilding" duration-ms="16006" started-at="2021-03-08T16:25:21 IST" finished-at="2021-03-08T16:25:37 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GensearchByBuilding -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.yourinfo.testcases.SearchPageTest@12d3a4e9]" name="teardown" is-config="true" duration-ms="1281" started-at="2021-03-08T16:25:37 IST" finished-at="2021-03-08T16:25:38 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.yourinfo.testcases.SearchPageTest@12d3a4e9]" name="setup" is-config="true" duration-ms="10673" started-at="2021-03-08T16:25:38 IST" finished-at="2021-03-08T16:25:49 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="clickonGenSearch()[pri:4, instance:com.yourinfo.testcases.SearchPageTest@12d3a4e9]" name="clickonGenSearch" duration-ms="1556" started-at="2021-03-08T16:25:49 IST" finished-at="2021-03-08T16:25:50 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickonGenSearch -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.yourinfo.testcases.SearchPageTest@12d3a4e9]" name="teardown" is-config="true" duration-ms="2373" started-at="2021-03-08T16:25:50 IST" finished-at="2021-03-08T16:25:53 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.yourinfo.testcases.SearchPageTest@12d3a4e9]" name="setup" is-config="true" duration-ms="9288" started-at="2021-03-08T16:25:53 IST" finished-at="2021-03-08T16:26:02 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="clickonAdvSeachbyOwner()[pri:5, instance:com.yourinfo.testcases.SearchPageTest@12d3a4e9]" name="clickonAdvSeachbyOwner" duration-ms="1884" started-at="2021-03-08T16:26:02 IST" finished-at="2021-03-08T16:26:04 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickonAdvSeachbyOwner -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.yourinfo.testcases.SearchPageTest@12d3a4e9]" name="teardown" is-config="true" duration-ms="1053" started-at="2021-03-08T16:26:04 IST" finished-at="2021-03-08T16:26:05 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.yourinfo.testcases.SearchPageTest@12d3a4e9]" name="setup" is-config="true" duration-ms="11026" started-at="2021-03-08T16:26:05 IST" finished-at="2021-03-08T16:26:16 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="clickonSearchByDeveloper()[pri:6, instance:com.yourinfo.testcases.SearchPageTest@12d3a4e9]" name="clickonSearchByDeveloper" duration-ms="727" started-at="2021-03-08T16:26:16 IST" finished-at="2021-03-08T16:26:17 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickonSearchByDeveloper -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.yourinfo.testcases.SearchPageTest@12d3a4e9]" name="teardown" is-config="true" duration-ms="1083" started-at="2021-03-08T16:26:17 IST" finished-at="2021-03-08T16:26:18 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.yourinfo.testcases.SearchPageTest@12d3a4e9]" name="setup" is-config="true" duration-ms="10767" started-at="2021-03-08T16:26:18 IST" finished-at="2021-03-08T16:26:28 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="clickonProject()[pri:7, instance:com.yourinfo.testcases.SearchPageTest@12d3a4e9]" name="clickonProject" duration-ms="3385" started-at="2021-03-08T16:26:28 IST" finished-at="2021-03-08T16:26:32 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickonProject -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.yourinfo.testcases.SearchPageTest@12d3a4e9]" name="teardown" is-config="true" duration-ms="1665" started-at="2021-03-08T16:26:32 IST" finished-at="2021-03-08T16:26:33 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.yourinfo.testcases.SearchPageTest@12d3a4e9]" name="setup" is-config="true" duration-ms="10605" started-at="2021-03-08T16:26:33 IST" finished-at="2021-03-08T16:26:44 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="clickonMajorProject()[pri:8, instance:com.yourinfo.testcases.SearchPageTest@12d3a4e9]" name="clickonMajorProject" duration-ms="2530" started-at="2021-03-08T16:26:44 IST" finished-at="2021-03-08T16:26:47 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickonMajorProject -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.yourinfo.testcases.SearchPageTest@12d3a4e9]" name="teardown" is-config="true" duration-ms="1047" started-at="2021-03-08T16:26:47 IST" finished-at="2021-03-08T16:26:48 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.yourinfo.testcases.SearchPageTest@12d3a4e9]" name="setup" is-config="true" duration-ms="9110" started-at="2021-03-08T16:26:49 IST" finished-at="2021-03-08T16:26:58 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="AssertBuildName(java.lang.String)[pri:9, instance:com.yourinfo.testcases.SearchPageTest@12d3a4e9]" name="AssertBuildName" duration-ms="14655" started-at="2021-03-08T16:26:58 IST" data-provider="getYourInfoTestdata" finished-at="2021-03-08T16:27:13 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Pal]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AssertBuildName -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.yourinfo.testcases.SearchPageTest@12d3a4e9]" name="teardown" is-config="true" duration-ms="1332" started-at="2021-03-08T16:27:13 IST" finished-at="2021-03-08T16:27:14 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.yourinfo.testcases.SearchPageTest@12d3a4e9]" name="setup" is-config="true" duration-ms="10846" started-at="2021-03-08T16:27:14 IST" finished-at="2021-03-08T16:27:25 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="AssertBuildName(java.lang.String)[pri:9, instance:com.yourinfo.testcases.SearchPageTest@12d3a4e9]" name="AssertBuildName" duration-ms="16794" started-at="2021-03-08T16:27:25 IST" data-provider="getYourInfoTestdata" finished-at="2021-03-08T16:27:42 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Jab]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AssertBuildName -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.yourinfo.testcases.SearchPageTest@12d3a4e9]" name="teardown" is-config="true" duration-ms="1116" started-at="2021-03-08T16:27:42 IST" finished-at="2021-03-08T16:27:43 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.yourinfo.testcases.SearchPageTest@12d3a4e9]" name="setup" is-config="true" duration-ms="14334" started-at="2021-03-08T16:27:43 IST" finished-at="2021-03-08T16:27:57 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="AssertBuildName(java.lang.String)[pri:9, instance:com.yourinfo.testcases.SearchPageTest@12d3a4e9]" name="AssertBuildName" duration-ms="17422" started-at="2021-03-08T16:27:57 IST" data-provider="getYourInfoTestdata" finished-at="2021-03-08T16:28:15 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Mar]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AssertBuildName -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.yourinfo.testcases.SearchPageTest@12d3a4e9]" name="teardown" is-config="true" duration-ms="2218" started-at="2021-03-08T16:28:15 IST" finished-at="2021-03-08T16:28:17 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.yourinfo.testcases.SearchPageTest -->
+      <class name="com.yourinfo.testcases.HomePageTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.yourinfo.testcases.HomePageTest@2c34f934]" name="setup" is-config="true" duration-ms="8701" started-at="2021-03-08T16:22:30 IST" finished-at="2021-03-08T16:22:39 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="clickonAdmin()[pri:1, instance:com.yourinfo.testcases.HomePageTest@2c34f934]" name="clickonAdmin" duration-ms="4539" started-at="2021-03-08T16:22:39 IST" finished-at="2021-03-08T16:22:44 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickonAdmin -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.yourinfo.testcases.HomePageTest@2c34f934]" name="teardown" is-config="true" duration-ms="1119" started-at="2021-03-08T16:22:44 IST" finished-at="2021-03-08T16:22:45 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.yourinfo.testcases.HomePageTest@2c34f934]" name="setup" is-config="true" duration-ms="9133" started-at="2021-03-08T16:22:45 IST" finished-at="2021-03-08T16:22:54 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="UserName()[pri:2, instance:com.yourinfo.testcases.HomePageTest@2c34f934]" name="UserName" duration-ms="2281" started-at="2021-03-08T16:22:54 IST" finished-at="2021-03-08T16:22:56 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UserName -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.yourinfo.testcases.HomePageTest@2c34f934]" name="teardown" is-config="true" duration-ms="1581" started-at="2021-03-08T16:22:56 IST" finished-at="2021-03-08T16:22:58 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.yourinfo.testcases.HomePageTest@2c34f934]" name="setup" is-config="true" duration-ms="10342" started-at="2021-03-08T16:22:58 IST" finished-at="2021-03-08T16:23:08 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="GeneralSearch()[pri:3, instance:com.yourinfo.testcases.HomePageTest@2c34f934]" name="GeneralSearch" duration-ms="3275" started-at="2021-03-08T16:23:08 IST" finished-at="2021-03-08T16:23:11 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GeneralSearch -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.yourinfo.testcases.HomePageTest@2c34f934]" name="teardown" is-config="true" duration-ms="1237" started-at="2021-03-08T16:23:11 IST" finished-at="2021-03-08T16:23:13 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.yourinfo.testcases.HomePageTest@2c34f934]" name="setup" is-config="true" duration-ms="11404" started-at="2021-03-08T16:23:13 IST" finished-at="2021-03-08T16:23:24 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="ClickOnTools()[pri:4, instance:com.yourinfo.testcases.HomePageTest@2c34f934]" name="ClickOnTools" duration-ms="2261" started-at="2021-03-08T16:23:24 IST" finished-at="2021-03-08T16:23:26 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ClickOnTools -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.yourinfo.testcases.HomePageTest@2c34f934]" name="teardown" is-config="true" duration-ms="1843" started-at="2021-03-08T16:23:26 IST" finished-at="2021-03-08T16:23:28 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.yourinfo.testcases.HomePageTest@2c34f934]" name="setup" is-config="true" duration-ms="9447" started-at="2021-03-08T16:23:28 IST" finished-at="2021-03-08T16:23:38 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="clickonSpec()[pri:5, instance:com.yourinfo.testcases.HomePageTest@2c34f934]" name="clickonSpec" duration-ms="3583" started-at="2021-03-08T16:23:38 IST" finished-at="2021-03-08T16:23:41 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickonSpec -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.yourinfo.testcases.HomePageTest@2c34f934]" name="teardown" is-config="true" duration-ms="1165" started-at="2021-03-08T16:23:41 IST" finished-at="2021-03-08T16:23:42 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.yourinfo.testcases.HomePageTest@2c34f934]" name="setup" is-config="true" duration-ms="12524" started-at="2021-03-08T16:23:42 IST" finished-at="2021-03-08T16:23:55 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="clickonValuation()[pri:6, instance:com.yourinfo.testcases.HomePageTest@2c34f934]" name="clickonValuation" duration-ms="1681" started-at="2021-03-08T16:23:55 IST" finished-at="2021-03-08T16:23:57 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickonValuation -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.yourinfo.testcases.HomePageTest@2c34f934]" name="teardown" is-config="true" duration-ms="1103" started-at="2021-03-08T16:23:57 IST" finished-at="2021-03-08T16:23:58 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.yourinfo.testcases.HomePageTest@2c34f934]" name="setup" is-config="true" duration-ms="10538" started-at="2021-03-08T16:23:58 IST" finished-at="2021-03-08T16:24:08 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="clickonRental()[pri:7, instance:com.yourinfo.testcases.HomePageTest@2c34f934]" name="clickonRental" duration-ms="4340" started-at="2021-03-08T16:24:08 IST" finished-at="2021-03-08T16:24:13 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickonRental -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.yourinfo.testcases.HomePageTest@2c34f934]" name="teardown" is-config="true" duration-ms="1078" started-at="2021-03-08T16:24:13 IST" finished-at="2021-03-08T16:24:14 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.yourinfo.testcases.HomePageTest@2c34f934]" name="setup" is-config="true" duration-ms="9469" started-at="2021-03-08T16:24:14 IST" finished-at="2021-03-08T16:24:23 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="clickReport()[pri:8, instance:com.yourinfo.testcases.HomePageTest@2c34f934]" name="clickReport" duration-ms="2197" started-at="2021-03-08T16:24:23 IST" finished-at="2021-03-08T16:24:25 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickReport -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.yourinfo.testcases.HomePageTest@2c34f934]" name="teardown" is-config="true" duration-ms="1374" started-at="2021-03-08T16:24:25 IST" finished-at="2021-03-08T16:24:27 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.yourinfo.testcases.HomePageTest@2c34f934]" name="setup" is-config="true" duration-ms="9599" started-at="2021-03-08T16:24:27 IST" finished-at="2021-03-08T16:24:36 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="Versionnumber()[pri:9, instance:com.yourinfo.testcases.HomePageTest@2c34f934]" name="Versionnumber" duration-ms="189" started-at="2021-03-08T16:24:36 IST" finished-at="2021-03-08T16:24:36 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Versionnumber -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.yourinfo.testcases.HomePageTest@2c34f934]" name="teardown" is-config="true" duration-ms="2487" started-at="2021-03-08T16:24:36 IST" finished-at="2021-03-08T16:24:39 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.yourinfo.testcases.HomePageTest -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->
 </testng-results>
